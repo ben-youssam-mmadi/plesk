@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(31, 0, 55);
+    color: whitesmoke;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    opacity: 0.5;
+    transition: 0.6s;
+}
+#boutton-plesk{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#boutton-plesk a{
+    background-color: white;
+    color: rgb(31, 0, 55);
+    border-radius: 30px;
+    padding: 15px 25px;
+    font-size: 1.5em;
+}
+#boutton-plesk a:last-child{
+    margin-left: 20px;
+}
+/* ************* HEAD ************** */
+#head{
+    height: 150px;
+    background: url(https://images.wallpaperscraft.com/image/single/code_binary_code_glow_136085_1024x768.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+}
+#head div{
+    display: inline-block;
+}
+#head-nom{
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+#head-nom:hover{
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px purple, 0 -10px 20px plum, 0 -18px 40px powderblue;
+    transition: 0.7s;
+}
+#head-info p:hover{
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px purple, 0 -10px 20px plum, 0 -18px 40px powderblue;
+    transition: 0.7s;
+}
+#head-info {
+    float: right;
+    margin-right: 20px;
+}
+/* ************* TRAIT ************** */
+.grandtrait{
+    height: 3px;
+    width: 85%;
+    margin: -3px auto;
+    background-color: #FFFAE1;
+    box-shadow: 1px 3px 2px rgb(50, 31, 50);
+}
+.petittrait {
+    height: 3px;
+    width: 85%;
+    margin: -3px auto;
+    background-color: #FFFAE1;
+    box-shadow: 1px 3px 2px rgb(50, 31, 50);
+}
+#traitvertical{
+    border-left: 2px solid black;
+    display: inline-block;
+    height: 800px;
+    margin: 0 20px;
+    vertical-align: top;
+    margin-top: 30px;
+}
+/* ************* CONTENT ************** */
+#content{
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+#content div{
+    display: inline-block;
+    /* height: 500px; */
+}
+#content h1{
+    text-align: center;
+}
+#content h1:hover{
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px purple, 0 -10px 20px plum, 0 -18px 40px powderblue;
+    transition: 0.7s;
+}
+/* ************* LEFT BOX ************** */
+
+#leftbox{
+    vertical-align: top;
+    margin-left: 20px;
+    width: 40%;
+}
+#leftbox div{
+    display: inline;
+}
+#skills h1{
+    margin-top: 100px;
+}
+#skills div{
+    width: 100%;
+    display: inline;
+}
+#skills div img{
+    width: 50px;
+    height: 50px;
+}
+#skills div img:hover{
+    opacity: 0.5;
+    transition: 0.7s;
+    transform: scale(1.05);
+}
+.skills-lang1{
+    display: inline-block;
+}
+.skills-lang2{
+    display: inline-block;
+}
+.skills-lang3{
+    display: inline-block;
+}
+.skills-lang4{
+    display: inline-block;
+}
+#skills img{
+    float: right;
+}
+#quali ul{
+    padding: 0;
+    margin-left: 20px;
+}
+#quali li{
+    font-size: 1.3em;
+}
+#quali h1{
+    margin-top: 120px;
+}
+/* ************* RIGHT BOX ************** */
+#rightbox{
+    margin-left: 20px;
+    width: 40%;
+}
+#rightbox .date{
+    display: inline;
+}
+#expepro div p{
+    display: inline-block;
+}
+#expepro{
+    width: 100%;
+}
+#education{
+    width: 100%;
+}
+#education div p{
+    display: inline-block;
+}
+.nom-expepro{
+    float: right;
+}
+.nom-education{
+    float: right;
+}
+#expepro div h5{
+    text-align: center;
+    margin-top: 0;
+}
+#education div h5{
+    text-align: center;
+    margin-top: 0;
+}
+#education h1{
+    margin-top: 100px;
+}
+/* ************* FOOT ************** */
+#lang{
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#lang .langlang{
+    display: inline-block;
+}
+#lang div{
+    margin-left: 40px;
+}
+#lang h1:hover{
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px purple, 0 -10px 20px plum, 0 -18px 40px powderblue;
+    transition: 0.7s;
+}
